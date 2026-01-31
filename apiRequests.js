@@ -5,12 +5,6 @@ export const getData = url => {
 			.then(response => response.json())
 			.then(json => resolve(json))
 			.catch(error => {
-				const e = document.querySelector('.error')
-				e.style.transform ='translateX(0%)'
-				e.innerText = error
-				setTimeout(()=>{
-					e.style.transform = 'translateX(350%)'
-				})
 				reject(error) 
 			},5000)
 	)
@@ -26,12 +20,6 @@ export const postData = (url, data) => {
 			.then(res => res.json())
 			.then(json => resolve(json))
 			.catch(err =>{ 
-								const e = document.querySelector('.error')
-				e.style.transform ='translateX(0%)'
-				e.innerText = err
-				setTimeout(()=>{
-					e.style.transform = 'translateX(350%)'
-				},5000)
 				reject(err)
 			})
 	)
@@ -47,12 +35,6 @@ export const patchData = (url, id, updatedData) => {
 			.then(res => res.json())
 			.then(json => resolve(json))
 			.catch(err => {
-								const e = document.querySelector('.error')
-				e.style.transform ='translateX(0%)'
-				e.innerText = err
-				setTimeout(()=>{
-					e.style.transform = 'translateX(350%)'
-				},5000)
 				reject(err)
 			})
 	)
