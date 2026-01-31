@@ -1,10 +1,24 @@
 {
-  "list": [
+  "img": [
     {
-      "id": "1",
-      "header": "йцуке",
-      "desc": "йцауапцпцп",
-      "status": true
+      "id": "bb7e",
+      "name": "c",
+      "url": "https://avatars.mds.yandex.net/i?id=0649b86ba68734cd73d7486fdf3362f735451eed-8307637-images-thumbs&n=13"
+    },
+    {
+      "id": "369c",
+      "name": "a",
+      "url": "https://avatars.mds.yandex.net/i?id=56365299d91655363d1fcfc0201c5d5f55f00e4d-10952395-images-thumbs&n=13"
+    },
+    {
+      "id": "efd3",
+      "name": "b",
+      "url": "https://avatars.mds.yandex.net/i?id=8de4cfade6a2ed66d199f571f76419d4e20d2413-5859422-images-thumbs&n=13"
+    },
+    {
+      "id": "1604",
+      "name": "d",
+      "url": "https://avatars.mds.yandex.net/i?id=9a88f583343a674cbaba02c7939a1d795808272d-11547469-images-thumbs&n=13"
     }
   ]
 }

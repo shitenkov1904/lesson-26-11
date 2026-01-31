@@ -25,9 +25,9 @@ export const postData = (url, data) => {
 	)
 }
 
-export const patchData = (url, id, updatedData) => {
+export const patchData = (url, updatedData) => {
 	return new Promise((resolve, reject) =>
-		fetch(`${url}/${id}`, {
+		fetch(url), {
 			method: 'PATCH',
 			body: JSON.stringify(updatedData),
 			headers: { 'Content-type': 'application/json; charset=UTF-8' }
@@ -37,7 +37,6 @@ export const patchData = (url, id, updatedData) => {
 			.catch(err => {
 				reject(err)
 			})
-	)
 }
 
 export const deleteData = (url, id) => {
