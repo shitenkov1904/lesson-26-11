@@ -8,14 +8,65 @@ body {
   height: 700px;
   border: 5px solid black;
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
-.left{
-  width: 400px;
-  height: 700px;
+.list {
+  width: 1400px;
+  max-height: 500px;
   border: 5px solid black;
-    display: flex;
-    flex-direction: column;
+  position: relative;
+  top: 20px;
+  overflow-y: scroll;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.el {
+  width: 1300px;
+  height: 200px;
+  border: 5px solid black;
+}
+.comp {
+  width: 50px;
+  height: 50px;
+  border: 5px solid black;
+  border-radius: 20px;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 35px;
+}
+.btn-add {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
   align-items: center;
-
+}
+.header {
+  width: 1200px;
+  height: 20px;
+  border-bottom: 4px dashed black;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  position: relative;
+  top: -40px;
+  right: -80px;
+  font-size: 30px;
+}
+.desc {
+  width: 1200px;
+  height: 100px;
+  position: relative;
+  top: -40px;
+  left: 80px;
+  color: grey;
+}
+.id{
+	width: 0;
+	height: 0;
+	font-size: 0px;
+	position: relative;
 }
